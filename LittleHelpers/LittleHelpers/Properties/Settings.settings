@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TGISS.Globals.Tools.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefaultCSVSeparator" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">","</Value>
+    </Setting>
+    <Setting Name="MaxColumnExcel2010" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">XFD</Value>
+    </Setting>
+    <Setting Name="MaxColumnExcel2007" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ZZ</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
