@@ -33,7 +33,7 @@ namespace C6.Globals.Tools
 		}
 
 		/// <summary>
-		/// We use some functionaly from this library so this is the reference to it ;)
+		/// We use some functionality from this library so this is the reference to it ;)
 		/// </summary>
 		LittleHelpers littleHelper = new LittleHelpers();
 
@@ -267,7 +267,7 @@ namespace C6.Globals.Tools
 					if (SubDirectories == true)
 					{
 						// Recurse the current directory
-                        LoadDirectoriesAsStringArray(dirInfo.FullName, SearchPattern, SubDirectories);
+						LoadDirectoriesAsStringArray(dirInfo.FullName, SearchPattern, SubDirectories);
 						//string[] subRetValue = LoadDirectoriesAsStringArray(dirInfo.FullName, SearchPattern, SubDirectories);                        
 					}
 				}                
@@ -310,7 +310,11 @@ namespace C6.Globals.Tools
 		}
 
 		/// <summary>
-		/// computes either MD5 or SHA1 file hash from file given in Path
+		/// computes either MD5 or SHA1 file hash from file given in Path.
+		/// 
+		/// Note:
+		/// Since this is just a file hash, we do not need a secure but a fast calculated hash. Which is why you see here NO secure hashes at work ;)
+		/// 
 		/// </summary>
 		/// <param name="Path">The path to the file the MD5 / SHA1 file cache should be created from.</param>
 		/// <param name="Hash">The hash type, either MD5 oder SHA1.</param>
