@@ -99,7 +99,7 @@ namespace C6.Globals.Tools
             Console.SetCursorPosition(Console.CursorLeft - Directory2Parse.Length, Console.CursorTop);
             Console.Beep(5000, 500);
             string zw = Console.ReadLine();
-            Directory2Parse = zw == "" ? Directory2Parse : zw;
+            Directory2Parse = Path.GetFullPath(zw == "" ? Directory2Parse : zw);        
 
             Console.Write("Sample DB lines to output? {0}", NoSampleDataLines);
             Console.SetCursorPosition(Console.CursorLeft - NoSampleDataLines.ToString().Length, Console.CursorTop);

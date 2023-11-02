@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LittleHelpers\LittleHelpers.csproj">
-      <Project>{27D07BB8-82EA-4137-A465-FC2AF060068F}</Project>
+      <Project>{27d07bb8-82ea-4137-a465-fc2af060068f}</Project>
       <Name>LittleHelpers</Name>
     </ProjectReference>
   </ItemGroup>
