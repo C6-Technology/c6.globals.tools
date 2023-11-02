@@ -166,7 +166,7 @@ namespace C6.Globals.Tools
             Console.WriteLine("Seperator is          : ,");
             Console.WriteLine();
 
-            if (Directory.Exists(Directory2Parse))
+            if (Directory.Exists(Path.GetFullPath(Directory2Parse)))
             {
                 string[] csvFiles = Directory.GetFiles(Directory2Parse, "*.csv");
                 Console.WriteLine("Found {0} CSV- files within the directory, going to parse them now!", csvFiles.GetUpperBound(0));
