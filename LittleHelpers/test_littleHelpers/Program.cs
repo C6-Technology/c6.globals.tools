@@ -159,11 +159,11 @@ namespace C6.Globals.Tools
             Console.WriteLine();
             Console.WriteLine("Settings are:");
             Console.WriteLine();
-            Console.WriteLine("Searchpath            : {0}", Directory2Parse);
-            Console.WriteLine("DB Samplelines        : {0}", NoSampleDataLines);
+            Console.WriteLine("Search path            : {0}", Directory2Parse);
+            Console.WriteLine("DB Sample lines        : {0}", NoSampleDataLines);
             Console.WriteLine("Has Headlines         : {0}", HasHeadline);
             Console.WriteLine("Time between files [s]: {0}", TimeBetweenFiles);
-            Console.WriteLine("Seperator is          : ,");
+            Console.WriteLine("Separator is          : ,");
             Console.WriteLine();
 
             if (Directory.Exists(Path.GetFullPath(Directory2Parse)))
